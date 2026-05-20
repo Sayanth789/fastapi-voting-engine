@@ -1,0 +1,36 @@
+# Large Binaries
+minikube-linux-amd64
+
+# Python environment
+.venv/
+venv/
+env/
+fenv/
+ENV/
+pyvenv.cfg
+
+# Python cache & compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environment variables & secrets (NEVER commit these)
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Operating System files
+.DS_Store
+Thumbs.db
