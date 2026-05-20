@@ -1,0 +1,36 @@
+CI : Automated process to build, package and test applications. 
+
+CD : Picks up where continuous integration ands and automated the delivery of applications.
+
+
+Current Manual Process 
+---------------------- 
+*  Make changes to code 
+
+* Commit Changes 
+
+* Run tests 
+
+* Build Image 
+
+* Deploy  (Heroku can make it automated) - And what is it >>>???
+
+* 
+----------------------
+
+Automated CI / CD 
+----------------------
+
+* What does a CI/CD tool do? * 
+
+All CI/CD platforms are dead simple  
+
+They provide a runner - Nothing more than a computer (VM) to 
+run a bunch of commands we specify 
+
+These commands are either ususally configured in a YAML/JSOn file or through a gui 
+
+The different steps/commands we provide makeup all of the actions our pipeline will perform 
+
+The pipeline will be triggered based off of some event (git push/merge)
+
